@@ -267,6 +267,7 @@ label, .stTextInput label, .stSelectbox label,
   min-height: 52px !important;
   background: #1A1A2E !important;
   color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
   font-family: 'Inter', sans-serif !important;
   font-weight: 700 !important;
   font-size: 15px !important;
@@ -282,6 +283,7 @@ label, .stTextInput label, .stSelectbox label,
 div[data-testid="column"]:first-child .stButton > button {
   background: #F3F4F6 !important;
   color: #374151 !important;
+  -webkit-text-fill-color: #374151 !important;
   border: 1.5px solid #E0E3E8 !important;
 }
 
