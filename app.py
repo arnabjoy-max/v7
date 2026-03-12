@@ -80,7 +80,10 @@ st.markdown("""
 
 html, body,
 [class*="css"],
-[data-testid],
+html, body,
+[class*="css"],
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"],
 [data-testid="stAppViewContainer"],
 [data-testid="stMain"],
 section[data-testid="stMain"],
